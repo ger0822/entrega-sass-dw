@@ -1,0 +1,15 @@
+main {
+    .box-root{
+        text-align: center;
+    }
+    .form-container{
+        display:grid;
+        place-items: center;
+    }
+    .footer-link{
+        .listing{
+            display: grid;
+            place-items: center;
+        }
+    }
+}

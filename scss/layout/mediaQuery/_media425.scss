@@ -1,0 +1,10 @@
+
+
+@media (max-width: 425px){
+    .navBar{
+        flex-direction: column;
+        justify-content: none;
+        align-items:left;
+        gap:1.25rem;
+    }
+}
