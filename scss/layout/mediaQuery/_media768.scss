@@ -22,4 +22,9 @@
     .contenido-texto-familias{
         text-align: left;
     }
+    .wp-block-container{
+        flex-wrap:wrap;
+        max-width: min(100% ,1024px);
+        align-items: column;
+        }
 }

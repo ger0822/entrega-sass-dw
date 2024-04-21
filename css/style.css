@@ -36,13 +36,18 @@ header div {
 }
 header .newsletter-subtitle {
   margin-bottom: 40px;
+  margin-left: 6px;
+}
+header .know-more {
+  margin-right: 1000px;
 }
 
-footer .footer-container-main {
-  background-color: black;
-}
 footer .footer-container {
-  margin-top: 40px;
+  margin-top: 90px;
+  background-color: lightgray;
+}
+footer .copyright {
+  background-color: lightgray;
 }
 footer .container-newsletter {
   position: relative;
@@ -132,13 +137,16 @@ main .contenido-familias-pioneras .contenido-texto-familias {
   left: 18.28rem;
   bottom: 12.32rem;
 }
+main .contenido-familias-pioneras .our-team-section {
+  margin: 75px;
+}
 
 main .contenedor-hijo {
   display: flex;
   grid-template-columns: auto auto auto;
   grid-template-rows: 80px 200px;
   grid-gap: 60px 70px;
-  background-color: #2196F3;
+  background-color: aliceblue;
   padding: 10px;
 }
 main .contenedor-hijo .articulo-hijo {
@@ -169,6 +177,32 @@ main .form-container {
 main .footer-link .listing {
   display: grid;
   place-items: center;
+}
+main .stats .icon-heading-center {
+  text-align: center;
+}
+main .wp-block-container {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  max-width: min(100%, 1180px);
+}
+main .uap-block-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+main .uap-block-container {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 28px;
+  column-gap: 67px;
+}
+main .block-image-align-center {
+  margin: 0 auto;
 }
 
 main .feature-knowledge-header {
@@ -235,6 +269,11 @@ main .showcase .hero-graphic-wrapper {
   }
   .contenido-texto-familias {
     text-align: left;
+  }
+  .wp-block-container {
+    flex-wrap: wrap;
+    max-width: min(100%, 1024px);
+    align-items: column;
   }
 }
 @media (max-width: 840px) {

@@ -8,8 +8,42 @@ main {
     }
     .footer-link{
         .listing{
-            display: grid;
-            place-items: center;
+                display: grid;
+                place-items: center;
         }
     }
+    .stats{
+        .icon-heading-center{
+            text-align: center;
+        }
+    }
+
+    .wp-block-container{
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        max-width:$container-width;
+
+    }
+    .uap-block-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap:nowrap;
+        row-gap:20px;
+        column-gap:20px;
+
+
+    }
+
+    .uap-block-container{
+        padding-top: 50px;
+        padding-left:200px;
+        padding-right: 28px;
+        column-gap: 67px;
+
+    }
+    .block-image-align-center{
+        margin:0 auto;
+}
 }
